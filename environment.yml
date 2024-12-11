@@ -1,0 +1,17 @@
+# conda env create -f environment.yml
+name: stv_sdap_notebook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.4
+  - requests
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - pillow
+  - urllib3
+  - matplotlib
+  - pandas
+  - numpy
+  - xarray
+  - h5
