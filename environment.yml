@@ -2,6 +2,7 @@
 name: stv_sdap_notebook
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - python=3.11.4
   - requests
@@ -14,4 +15,10 @@ dependencies:
   - pandas
   - numpy
   - xarray
-  - h5
+  - fiona
+  - cartopy
+  - tabulate
+  - owslib
+  - geopandas
+  - ipyleaflet
+  - shapely
